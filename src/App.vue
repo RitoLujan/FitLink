@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FitLinkMenu/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FitLinkMenu from './components/FitLinkMenu.vue'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery';
+import 'popper.js';
+import 'bootstrap';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FitLinkMenu
   }
 }
 </script>
@@ -17,10 +20,7 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
