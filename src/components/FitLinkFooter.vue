@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="footer-info">
-      <p>&copy; 2024 Fitlink</p>
+      <p id="message">&copy; 2024 Fitlink</p>
     </div>
   </footer>
 </template>
@@ -21,4 +21,7 @@ footer {
   margin: 0;
 }
 
+#message {
+  color: green;
+}
 </style>
